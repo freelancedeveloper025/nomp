@@ -27,7 +27,7 @@ Usage of this software requires abilities with sysadmin, database admin, coin da
 * [Community Support](#community--support)
 * [Usage](#usage)
   * [Requirements](#requirements)
-    * [Install] (#install)
+    * [Install](#install)
   * [Setting Up Coin Daemon](#0-setting-up-coin-daemon)
   * [Downloading & Installing](#1-downloading--installing)
   * [Configuration](#2-configuration)
