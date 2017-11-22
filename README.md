@@ -27,7 +27,7 @@ Usage of this software requires abilities with sysadmin, database admin, coin da
 * [Community Support](#community--support)
 * [Usage](#usage)
   * [Requirements](#requirements)
-	* [install] (#install)
+    * [Install] (#install)
   * [Setting Up Coin Daemon](#0-setting-up-coin-daemon)
   * [Downloading & Installing](#1-downloading--installing)
   * [Configuration](#2-configuration)
@@ -132,12 +132,14 @@ Usage
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
 
 ##### install
+```
 sudo apt-get install software-properties-common
 sudo apt-get update
 sudo add-apt-repository ppa:bitcoin/bitcoin
 sudo add-apt-repository ppa:chris-lea/libsodium
 sudo apt-get update
 sudo apt-get install cmake libsodium-dev libssl-dev libpcre3-dev libleveldb-dev libboost-all-dev libgmp-dev libprotobuf-dev protobuf-compiler libjansson-dev screen build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool libncurses5-dev unzip git python zlib1g-dev wget bsdmainutils automake redis-server
+```
 
 ##### Seriously
 Those are legitimate requirements. If you use old versions of Node.js or Redis that may come with your system package manager then you will have problems. Follow the linked instructions to get the last stable versions.
