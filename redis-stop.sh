@@ -1,0 +1,1 @@
+systemctl stop redis-server
